@@ -21,8 +21,7 @@ body {
 
 .container{
     text-align: center;
-    width: 330px;
-    height: 380px;
+    max-width: 330px;
     background-color: white;
     border-radius: 20px;
     margin: 150px 0;
@@ -43,7 +42,8 @@ img{
     max-width: 100%;
     position: absolute;
     top: 90px;
-    left: 122px;
+     left: 50%;
+    transform: translateX(-50%);
 }
 
 .description{
@@ -51,7 +51,7 @@ img{
     margin-bottom: 25px;
 }
 
-bold{
+h1{
     font-weight: 700;
     font-size: 18px;
 }
